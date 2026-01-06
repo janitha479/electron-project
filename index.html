@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Hello from Electron renderer!</title>
+  </head>
+  <body>
+    <h1>Hello from Electron renderer!</h1>
+    <p>👋</p>
+    <p id="info"></p>
+
+    <div>
+      <button id="scanBtn">Scan Wi‑Fi</button>
+      <span id="status" style="margin-left:12px"></span>
+    </div>
+
+    <h3>Saved Wi‑Fi Profiles</h3>
+    <ul id="ssidList"></ul>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
