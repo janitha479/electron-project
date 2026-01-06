@@ -74,7 +74,7 @@ This creates a packaged application in the `out/` directory that can be run dire
 ### Build Output
 
 After running `npm run make`, you'll find:
-- **Installer**: `out/make/squirrel.windows/x64/electron-project-{version} Setup.exe`
+- **Installer**: `out/make/squirrel.windows/x64/electron-project-{version}Setup.exe`
 - **Packaged App**: `out/electron-project-win32-x64/`
 
 ## Project Structure
